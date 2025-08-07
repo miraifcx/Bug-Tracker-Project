@@ -4,7 +4,7 @@
 
 Originally created as my **final project for CS50: Introduction to Computer Science**, Collab marks my first full-stack attempt at building a **modular, multi-page web app with authentication, database integration, and task tracking**.
 
-> 🗓️ **Built in 2022** — Still a work in progress.
+> 🗓️ **Built on 2022** — A completed work with options for improvement.
 
 ## ✨ Features
 
