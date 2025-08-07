@@ -1,13 +1,48 @@
+# 🛠️ Collab – Project Collaboration & Bug Tracker
 
-# Collab
+**Collab** is a simple yet functional **project collaboration web app and bug tracker**, designed to help development teams **track software bugs**, **manage tasks**, and **collaborate on projects** in a Kanban-style interface.
 
-A simple project collaboration web app/bug tracker that documents and lets a team keep track of bugs on their software. A work in progress. c. 2022
+Originally created as my **final project for CS50: Introduction to Computer Science**, Collab marks my first full-stack attempt at building a **modular, multi-page web app with authentication, database integration, and task tracking**.
 
-Also my final project for CS50 Intro to Computer Science.
+> 🗓️ **Built in 2022** — Still a work in progress.
 
+## ✨ Features
 
+### ✅ App
 
-## Tree
+* Clean, minimalist UI for intuitive task tracking
+* Modular design structure for easy maintenance
+
+### 📁 Projects
+
+* Create and manage multiple projects
+* Invite or collaborate with other team members
+* Edit project info and ownership
+
+### 🐛 Tickets
+
+* Create and track issues using Kanban-style boards
+* Add detailed descriptions and assign ticket priority
+* Comment and interact on ticket threads
+* (Planned) cross-platform support
+
+### 👤 User
+
+* User registration and login
+* Profile management and password updates
+
+## 🧱 Tech Stack
+
+* **Python 3 + Flask** – Backend framework
+* **SQLite** – Lightweight relational database
+* **HTML, CSS, JS** – Frontend technologies
+* **Jinja2** – Templating engine
+* **Modular Flask Blueprints** – For clean architecture
+* **Forms & Validation** – With custom utilities and helpers
+
+## 📁 Project Tree
+
+> A detailed breakdown of the directory structure shows the modularity of the application, separated by feature:
 
 ```
 Collab                                                 
@@ -116,24 +151,21 @@ Collab
    └─ __init__.py                                      
 
 ```
-## Features
 
-### App
-- simple but beautiful UI
+## 🎓 Learning Outcomes
 
-### Projects
-- Create Projects
-- Collaborate with other creators
-- Edit project
+* Learned how to architect a modular full-stack web app
+* Integrated multiple Flask Blueprints and organized features cleanly
+* Implemented authentication and session handling securely
+* Applied CRUD principles in managing tickets, users, and projects
+* Worked with forms, JavaScript-enhanced UI, and error handling
 
-### Tickets
-- Kanban project management
-- Cross platform (incomplete)
-- Comment on tickets
+## 👥 Authors
 
+* 👨‍💻 [@AceBurgundy](https://github.com/AceBurgundy) – Full Stack Developer, Project Lead
+* 👥 [@AACaps](https://github.com/AACaps) – Contributor
 
-## Authors
+## 📜 License
 
-- [@AceBurgundy](https://github.com/AceBurgundy)
-
-- [@AACaps](https://github.com/AACaps) (Contributors)
+This project is licensed under the **MIT License**.
+See the [LICENSE](./License) file for more details.
